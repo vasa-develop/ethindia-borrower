@@ -1,0 +1,59 @@
+.OrdersWrapper {
+  background: rgba(246, 246, 246, 1.0);
+
+  > div:not(.HeaderWrapper):not(.Loading) {
+    max-width: 1180px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lendOrdersWrappers{
+    width: 100%;
+    padding: 0px 30px;
+
+  .react-tabs__tab-panel{
+    background: white;
+  }
+  }
+}
+.bg-white{
+  background: white;
+}
+
+.Checking {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background: -moz-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3B69FF), color-stop(100%, #2589FF));
+  background: -webkit-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: -o-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: -ms-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: linear-gradient(90deg, #3B69FF 0%, #2589FF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#3B69FF', endColorstr='#2589FF',GradientType=1 );
+
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  line-height: 100vh;
+}
+
+.introjs-tooltiptext {
+  white-space: nowrap;
+}
+.borrowOrders{
+  .ListWrapper{
+    width: 100%;
+    margin: 0px;
+    .Title{
+      padding: 0px;
+      font-size: 20px;
+    }
+  .List{
+    box-shadow: unset !important;
+  }
+  }
+}

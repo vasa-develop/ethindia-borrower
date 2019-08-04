@@ -1,0 +1,125 @@
+.ownerInfo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    >span{
+      display: flex;justify-content: center;align-items: center;
+    }
+    >div{
+      margin-left: 8px;
+      display: flex;
+      flex-direction: column;
+      >small{
+        color: #888;
+      }
+    }
+}
+.actionWrapper{
+  margin: 16px 0px;
+  >div{
+    width: 100%;
+    display: flex;
+    >button{
+      width: 50%;
+    }
+  }
+}
+.progressWrapper{
+  margin-top: 1rem;
+  
+  .pledgeSmall{
+    color: #888;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+}
+.title{
+  font-weight: 800;
+  margin: 16px 0px;
+}
+.card{
+  margin: 8px 0px;
+}
+
+.dataWrapper{
+  padding: 30px 16px;
+}
+.backerWrapper{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 0px;
+p{
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+}
+.dateWrapper{
+  margin-top: 0.2rem;
+  padding: 5px 0px;
+
+}
+.alphaHighlight{
+  margin: 0px -16px;
+  padding: 10px 10px;
+  background: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    font-weight: 800;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #1890ff;
+  }
+}
+.highlight{
+  background: #1E2132;
+  margin: 0px -16px;
+  padding: 3px 16px;
+ 
+  *{
+    color: white;
+  }
+  span{
+    color: white !important;
+  }
+}
+
+.supportModel{
+ .sponseCard1{
+   background: #1E1C2E; 
+   color: #fff;
+   display: flex; 
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+   .sponserTypeText{
+     font-weight: 900;
+     margin-top: 20px;
+     text-align: center;
+     color: white; 
+   }
+ }
+  .desc{
+    color: #888;
+  }
+  .date{
+    text-align: right;
+  }
+  .sliderWrapper{
+    padding: 10px 0px;
+    span{
+      color: black;
+    }
+  }
+  .buttonGroup{
+    width: 100%;
+    display: flex;
+    button{
+      width: 50%;
+    }
+  }
+}

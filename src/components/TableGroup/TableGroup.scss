@@ -1,0 +1,11 @@
+.TableGroup {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+  .TableWrapper {
+    box-sizing: border-box;
+  }
+}

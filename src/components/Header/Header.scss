@@ -1,0 +1,157 @@
+.HeaderWrapper {
+  background: -moz-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3B69FF), color-stop(100%, #2589FF));
+  background: -webkit-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: -o-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: -ms-linear-gradient(0deg, #3B69FF 0%, #2589FF 100%);
+  background: linear-gradient(90deg, #3B69FF 0%, #2589FF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#3B69FF', endColorstr='#2589FF',GradientType=1 );
+
+  .Inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    @media (max-width: 1024px) {
+   
+      padding: 90px 0 50px;
+    }
+    @media (max-width: 425px) {
+   
+      padding: 0;
+    }
+
+    .Logo {
+     
+      text-transform: uppercase;
+      color: white;
+      font-size: 25px;
+      font-weight: bolder;
+      position: relative;
+      @media (max-width: 1024px) {
+        font-size: 3em;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .Header {
+      margin: 20px 0px;
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+
+      .Info {
+        margin-top: 26px;
+
+        &.Address {
+              margin-top: 0px;
+.Label{
+    @media (max-width: 1024px) {
+           
+              width: 100%;
+              max-width: 80%;
+              margin: 13px 10% 0;
+              font-size: 0.8em;
+           
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+}
+         .Value {
+         display: flex; 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#9871ee', endColorstr='#a67ef0',GradientType=1 );
+            line-height: 20px;
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 13px;
+
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            letter-spacing: 2.74px;
+         
+            @media (max-width: 1024px) {
+            
+              width: 100%;
+              max-width: 80%;
+              margin: 13px 10% 0;
+              font-size: 1em;
+
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            @media (max-width: 425px) {
+              max-width: 95%;
+              margin: 13px 2.5% 0;
+              letter-spacing: 2.74px;
+              letter-spacing: 1.5px;
+            }
+          }
+        }
+
+        .Label {
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 12px;
+          color: rgba(255,255,255,.7);
+         
+          line-height: 14px;
+          height: 14px;
+           
+        }
+
+        &:not(.Address) {
+          display: flex;
+          justify-content: space-between;
+         
+          @media (max-width: 1024px) {
+            max-width: 80%;
+            margin: 32px 10%;
+          }
+          @media (max-width: 425px) {
+            max-width: 95%;
+            margin: 13px 2.5% 0;
+          }
+
+          .SubInfo {
+            .Label {
+              text-align: left;
+            }
+
+            .Value {
+              margin-top: 3px;
+              font-size: 24px;
+              color: white;
+              text-align: left;
+              line-height: 29px;
+              @media (max-width: 1024px) {
+                font-size: 1em;
+              }
+              @media (max-width: 425px) {
+                font-size: 0.8em;
+              }
+
+              span {
+                font-size: 70%;
+              }
+
+              select {
+                -webkit-appearance: none;
+                background: transparent;
+                border: none;
+                color: #5800ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
